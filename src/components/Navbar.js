@@ -8,7 +8,7 @@ const Navbar = () => {
     const theme = isLightTheme ? light : dark
     return (
         <nav style={{ background: theme.ui, color: theme.syntax }}>
-            <h1>context app</h1>
+            <h1>React Context App</h1>
             <div onClick={toggleAuth}>{isAuthenticated ? "logged in" : "logged out"}</div>
             <ul>
             <li>home</li>
